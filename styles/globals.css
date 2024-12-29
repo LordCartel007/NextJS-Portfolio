@@ -1,0 +1,80 @@
+/* styles/globals.css */
+.centeredText {
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  margin: 0; /* Reset margin */
+  font-family: Arial, sans-serif; /* Choose a clean font */
+  font-size: 1.3rem; /* Adjust font size */
+}
+
+.pic {
+  display: flex;
+  justify-content: center;
+}
+
+.project1 {
+  margin-top: 30px;
+  font-size: 3rem;
+  font-family: fantasy;
+  font-weight: 200;
+  text-align: center;
+}
+
+.about1 {
+  margin-top: 30px;
+  font-size: 3rem;
+  font-family: fantasy;
+  font-weight: 200;
+  text-align: center;
+}
+
+.Real {
+  margin-top: 30px;
+  font-size: 3rem;
+  font-family: fantasy;
+  font-weight: 200;
+  text-align: center;
+}
+
+/* In globals.css or your layout's CSS file */
+
+/* Remove default margin and padding from the entire page */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Ensures padding and borders don't affect width/height */
+}
+
+html,
+body {
+  width: 100%; /* Ensure full width */
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+  margin: 0;
+  padding: 0;
+}
+
+/* Ensure the main wrapper spans the full width */
+.main-wrapper {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+}
+
+/* Optional: This removes extra space caused by the navbar, if it's fixed */
+
+.contact-container {
+  margin-bottom: 10%;
+  margin-left: 5%;
+}
+
+.project3 {
+  margin-bottom: 10%;
+}
+
+.about2 {
+  margin-bottom: 10%;
+}
