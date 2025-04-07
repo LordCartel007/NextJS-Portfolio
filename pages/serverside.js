@@ -31,7 +31,7 @@ export async function getServerSideProps() {
     };
   }
 }
-
+// serverside
 export default function Serverside({ todos }) {
   return (
     <div>
