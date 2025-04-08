@@ -4,6 +4,7 @@ import Contact from "@/pages/contact";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
+// Home function to render the main page
 export default function Home() {
   return (
     <main>
