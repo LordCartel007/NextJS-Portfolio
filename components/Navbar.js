@@ -4,6 +4,7 @@ import Link from "next/link";
 import styles from "../components/NavBar.module.css";
 
 export default function NavBar() {
+  // This is a functional component for the navigation bar
   return (
     <nav className={styles.navbar}>
       <div className={styles.logo}>
